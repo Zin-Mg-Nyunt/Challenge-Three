@@ -7,6 +7,7 @@ $navbar-nav-link-padding-x : 2rem;
 $btn-padding-x : 2rem;
 $btn-padding-y : .6rem;
 
+
 $btn-padding-x-lg : 2rem;
 $btn-padding-y-lg : 1rem;
 
@@ -14,22 +15,32 @@ $primary : hsl(231, 69%, 60%);
 $danger : hsl(0, 94%, 66%);
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-.nav-item{
-    .nav-link{
-        color: #000;
+.navbar{
+    z-index: 1000;
+}
+.navbar-nav{
+    .nav-item{
+        .nav-link{
+            color: #000;
+        }
     }
 }
-.nav-item{
-    .nav-link:hover{
-        color: $danger;
+.navbar-nav{
+    .nav-item{
+        .nav-link:hover{
+            color: $danger;
+        }
     }
 }
 .min-vh-70{
     min-height: 70vh;
 }
-.fs-18{
+p{
     font-size: 18px;
 }
 .fw-custom{
     font-weight: 500;
+}
+.mb-100{
+    margin-bottom: 100px;
 }

@@ -10766,11 +10766,15 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.nav-item .nav-link {
+.navbar {
+  z-index: 1000;
+}
+
+.navbar-nav .nav-item .nav-link {
   color: #000;
 }
 
-.nav-item .nav-link:hover {
+.navbar-nav .nav-item .nav-link:hover {
   color: hsl(0deg, 94%, 66%);
 }
 
@@ -10778,12 +10782,16 @@ textarea.form-control-lg {
   min-height: 70vh;
 }
 
-.fs-18 {
+p {
   font-size: 18px;
 }
 
 .fw-custom {
   font-weight: 500;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
 }
 
 /*# sourceMappingURL=app.css.map */
