@@ -10802,4 +10802,24 @@ p {
   color: hsl(0deg, 94%, 66%);
 }
 
+#footer {
+  background: hsl(231deg, 69%, 60%);
+}
+
+#footer .footer-text {
+  letter-spacing: 0.6rem;
+}
+
+footer {
+  background-color: hsl(229deg, 31%, 21%);
+}
+
+.social-logo {
+  cursor: pointer;
+}
+
+.social-logo:hover {
+  color: hsl(0deg, 94%, 66%);
+}
+
 /*# sourceMappingURL=app.css.map */

@@ -58,3 +58,20 @@ p{
 .accordion-button:hover{
     color: $danger;
 }
+#footer{
+    background: $primary;
+}
+#footer{
+    .footer-text{
+        letter-spacing: .6rem;
+    }
+}
+footer{
+    background-color: hsl(229, 31%, 21%);
+}
+.social-logo{
+    cursor: pointer;
+}
+.social-logo:hover{
+    color: $danger;
+}
