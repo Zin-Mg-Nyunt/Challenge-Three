@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
 $font-family-sans-serif : 'Rubik', sans-serif;
 
+$primary : hsl(231, 69%, 60%);
+$danger : hsl(0, 94%, 66%);
+
 $navbar-padding-y : 1.5rem;
 $navbar-nav-link-padding-x : 2rem;
 
@@ -11,8 +14,11 @@ $btn-padding-y : .6rem;
 $btn-padding-x-lg : 2rem;
 $btn-padding-y-lg : 1rem;
 
-$primary : hsl(231, 69%, 60%);
-$danger : hsl(0, 94%, 66%);
+$accordion-icon-color : $primary;
+$accordion-button-active-color : #000;
+$accordion-button-active-bg : none;
+$accordion-icon-active-color : $danger;
+
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
 .navbar{
@@ -48,4 +54,7 @@ p{
     img{
         height: 400px;
     }
+}
+.accordion-button:hover{
+    color: $danger;
 }
