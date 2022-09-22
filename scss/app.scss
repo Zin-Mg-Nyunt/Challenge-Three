@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
 $font-family-sans-serif : 'Rubik', sans-serif;
 
 $navbar-padding-y : 1.5rem;
@@ -6,6 +6,9 @@ $navbar-nav-link-padding-x : 2rem;
 
 $btn-padding-x : 2rem;
 $btn-padding-y : .6rem;
+
+$btn-padding-x-lg : 2rem;
+$btn-padding-y-lg : 1rem;
 
 $primary : hsl(231, 69%, 60%);
 $danger : hsl(0, 94%, 66%);
@@ -20,4 +23,13 @@ $danger : hsl(0, 94%, 66%);
     .nav-link:hover{
         color: $danger;
     }
+}
+.min-vh-70{
+    min-height: 70vh;
+}
+.fs-18{
+    font-size: 18px;
+}
+.fw-custom{
+    font-weight: 500;
 }
