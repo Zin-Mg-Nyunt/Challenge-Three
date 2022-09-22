@@ -1,1 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+$font-family-sans-serif : 'Rubik', sans-serif;
+
+$navbar-padding-y : 1.5rem;
+$navbar-nav-link-padding-x : 2rem;
+
+$btn-padding-x : 2rem;
+$btn-padding-y : .6rem;
+
+$primary : hsl(231, 69%, 60%);
+$danger : hsl(0, 94%, 66%);
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.nav-item{
+    .nav-link{
+        color: #000;
+    }
+}
+.nav-item{
+    .nav-link:hover{
+        color: $danger;
+    }
+}
