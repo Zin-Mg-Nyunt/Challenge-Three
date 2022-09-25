@@ -10794,6 +10794,10 @@ p {
   margin-bottom: 100px;
 }
 
+.mb-200 {
+  margin-bottom: 200px;
+}
+
 #features img {
   height: 400px;
 }
@@ -10820,6 +10824,25 @@ footer {
 
 .social-logo:hover {
   color: hsl(0deg, 94%, 66%);
+}
+
+@media screen and (min-width: 1500px) {
+  .footer-div {
+    width: 25%;
+  }
+}
+@media screen and (max-width: 500px) {
+  #hero .btn {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  #extension .btn {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  #footer .footer-text {
+    letter-spacing: 0.3rem;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */

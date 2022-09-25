@@ -50,6 +50,9 @@ p{
 .mb-100{
     margin-bottom: 100px;
 }
+.mb-200{
+    margin-bottom: 200px;
+}
 #features{
     img{
         height: 400px;
@@ -74,4 +77,28 @@ footer{
 }
 .social-logo:hover{
     color: $danger;
+}
+@media screen and (min-width: 1500px) {
+    .footer-div{
+        width: 25%;
+    }
+}
+@media screen and (max-width: 500px) {
+    #hero{
+        .btn{
+            padding-right: .5rem;
+            padding-left: .5rem;
+        }
+    }
+    #extension{
+        .btn{
+            padding-left: .5rem;
+            padding-right: .5rem;
+        }
+    }
+    #footer{
+        .footer-text{
+            letter-spacing: .3rem;
+        }
+    }
 }
